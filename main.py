@@ -65,7 +65,7 @@ wm = WeChatMessage(client)
 
 {{words.DATA}}'''
 # wea, temperature = get_weather()
-data = {"love_days": {"value": get_count()},"ymd": {"value": dat.get('ymd')},"type": {"value": dat.get('type')},
+data = {"love_days": {"value": get_count(), "color": get_random_color()},"ymd": {"value": dat.get('ymd')},"type": {"value": dat.get('type')},
         "birthday_left_me": {"value": get_birthday_me()},"high": {"value": dat.get('high')},
         "low": {"value": dat.get('low')}, "sunrise": {"value": dat.get('sunrise')},"week": {"value": dat.get('week')},
         "sunset": {"value": dat.get('sunset')}, "fx": {"value": dat.get('fx')}, "fl": {"value": dat.get('fl')},
